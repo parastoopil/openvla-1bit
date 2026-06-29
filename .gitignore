@@ -1,0 +1,20 @@
+# Model weights (too large for git — host on HuggingFace Hub)
+output/openvla_1bit_llm/
+output/openvla_lora/
+output/openvla_mixed_4bit1bit/
+output/*.safetensors
+output/**/model.safetensors
+
+# Logs and caches
+logs/
+output/*.log
+output/action_eval.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# HuggingFace cache
+hf_cache/
+
+# OS
+.DS_Store

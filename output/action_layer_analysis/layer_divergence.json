@@ -1,0 +1,1122 @@
+[
+  {
+    "layer": 0,
+    "mean_divergence": 0.16194313764572144,
+    "mean_mismatch": 0.35997396246785,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0677870512008667,
+        "mismatch": 0.15403422982885084
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.07670456171035767,
+        "mismatch": 0.15647921760391204
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.08197098970413208,
+        "mismatch": 0.16870415647921755
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.44135916233062744,
+        "mismatch": 0.2102689486552567
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0001443028450012207,
+        "mismatch": 0.60880195599022
+      },
+      "mlp.up_proj": {
+        "divergence": 9.375810623168945e-05,
+        "mismatch": 0.60880195599022
+      },
+      "mlp.down_proj": {
+        "divergence": 0.46554213762283325,
+        "mismatch": 0.6127272727272728
+      }
+    }
+  },
+  {
+    "layer": 1,
+    "mean_divergence": 0.2040514818259648,
+    "mean_mismatch": 0.4619524973803702,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.1672748327255249,
+        "mismatch": 0.26894865525672373
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.16739273071289062,
+        "mismatch": 0.27872860635696817
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.15884965658187866,
+        "mismatch": 0.26650366748166254
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.2737897038459778,
+        "mismatch": 0.2102689486552567
+      },
+      "mlp.gate_proj": {
+        "divergence": 1.8656253814697266e-05,
+        "mismatch": 0.7359413202933985
+      },
+      "mlp.up_proj": {
+        "divergence": 0.0001404285430908203,
+        "mismatch": 0.7432762836185819
+      },
+      "mlp.down_proj": {
+        "divergence": 0.660894364118576,
+        "mismatch": 0.73
+      }
+    }
+  },
+  {
+    "layer": 2,
+    "mean_divergence": 0.23827856566224778,
+    "mean_mismatch": 0.6912755215444701,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.11372619867324829,
+        "mismatch": 0.7872860635696821
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.39981263875961304,
+        "mismatch": 0.7872860635696821
+      },
+      "self_attn.v_proj": {
+        "divergence": 9.59634780883789e-06,
+        "mismatch": 0.7897310513447433
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.386965811252594,
+        "mismatch": 0.18581907090464544
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0007700324058532715,
+        "mismatch": 0.7677261613691931
+      },
+      "mlp.up_proj": {
+        "divergence": 0.002599954605102539,
+        "mismatch": 0.7701711491442542
+      },
+      "mlp.down_proj": {
+        "divergence": 0.7640657275915146,
+        "mismatch": 0.750909090909091
+      }
+    }
+  },
+  {
+    "layer": 3,
+    "mean_divergence": 0.1764997627053942,
+    "mean_mismatch": 0.7144717873813228,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7970660146699267
+      },
+      "self_attn.k_proj": {
+        "divergence": 9.5367431640625e-07,
+        "mismatch": 0.7921760391198044
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7921760391198044
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.41399818658828735,
+        "mismatch": 0.3227383863080685
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.010171115398406982,
+        "mismatch": 0.7555012224938875
+      },
+      "mlp.up_proj": {
+        "divergence": 0.007167935371398926,
+        "mismatch": 0.7652811735941321
+      },
+      "mlp.down_proj": {
+        "divergence": 0.8041601479053497,
+        "mismatch": 0.7763636363636364
+      }
+    }
+  },
+  {
+    "layer": 4,
+    "mean_divergence": 0.20583357342651912,
+    "mean_mismatch": 0.7291731495887975,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.00010651350021362305,
+        "mismatch": 0.8019559902200489
+      },
+      "self_attn.k_proj": {
+        "divergence": 6.67572021484375e-06,
+        "mismatch": 0.7995110024449877
+      },
+      "self_attn.v_proj": {
+        "divergence": 3.5762786865234375e-07,
+        "mismatch": 0.8019559902200489
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.540031760931015,
+        "mismatch": 0.3227383863080685
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.018864929676055908,
+        "mismatch": 0.7921760391198044
+      },
+      "mlp.up_proj": {
+        "divergence": 0.009879052639007568,
+        "mismatch": 0.7995110024449877
+      },
+      "mlp.down_proj": {
+        "divergence": 0.8719457238912582,
+        "mismatch": 0.7863636363636364
+      }
+    }
+  },
+  {
+    "layer": 5,
+    "mean_divergence": 0.20381645964724676,
+    "mean_mismatch": 0.7548725113517288,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8533007334963325
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.843520782396088
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8361858190709046
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5189960598945618,
+        "mismatch": 0.3031784841075794
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.00031441450119018555,
+        "mismatch": 0.8190709046454767
+      },
+      "mlp.up_proj": {
+        "divergence": 8.589029312133789e-05,
+        "mismatch": 0.8288508557457213
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9073188528418541,
+        "mismatch": 0.8
+      }
+    }
+  },
+  {
+    "layer": 6,
+    "mean_divergence": 0.21074779331684113,
+    "mean_mismatch": 0.7574159336995523,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8386308068459658
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8410757946210269
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8386308068459658
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5589547753334045,
+        "mismatch": 0.32762836185819066
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.00014090538024902344,
+        "mismatch": 0.8288508557457213
+      },
+      "mlp.up_proj": {
+        "divergence": 4.863739013671875e-05,
+        "mismatch": 0.8361858190709046
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9160902351140976,
+        "mismatch": 0.7909090909090909
+      }
+    }
+  },
+  {
+    "layer": 7,
+    "mean_divergence": 0.4076019163642611,
+    "mean_mismatch": 0.7569278887371796,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 6.616115570068359e-06,
+        "mismatch": 0.8166259168704156
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8141809290953546
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8264058679706602
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.6282112300395966,
+        "mismatch": 0.39853300733496333
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.6347362995147705,
+        "mismatch": 0.823960880195599
+      },
+      "mlp.up_proj": {
+        "divergence": 0.7191895246505737,
+        "mismatch": 0.8215158924205379
+      },
+      "mlp.down_proj": {
+        "divergence": 0.8710697442293167,
+        "mismatch": 0.7972727272727272
+      }
+    }
+  },
+  {
+    "layer": 8,
+    "mean_divergence": 0.4798795203013079,
+    "mean_mismatch": 0.7507795383101007,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.022780954837799072,
+        "mismatch": 0.8190709046454767
+      },
+      "self_attn.k_proj": {
+        "divergence": 5.21540641784668e-05,
+        "mismatch": 0.823960880195599
+      },
+      "self_attn.v_proj": {
+        "divergence": 2.574920654296875e-05,
+        "mismatch": 0.8288508557457213
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5630767643451691,
+        "mismatch": 0.3740831295843521
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.9239663630723953,
+        "mismatch": 0.80440097799511
+      },
+      "mlp.up_proj": {
+        "divergence": 0.9395165853202343,
+        "mismatch": 0.8141809290953546
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9097380712628365,
+        "mismatch": 0.7909090909090909
+      }
+    }
+  },
+  {
+    "layer": 9,
+    "mean_divergence": 0.4803038936640535,
+    "mean_mismatch": 0.7543263582383387,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.19226551055908203,
+        "mismatch": 0.8141809290953546
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0007131695747375488,
+        "mismatch": 0.8141809290953546
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.00038242340087890625,
+        "mismatch": 0.8166259168704156
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.39201468229293823,
+        "mismatch": 0.34718826405867975
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.9352631941437721,
+        "mismatch": 0.8337408312958435
+      },
+      "mlp.up_proj": {
+        "divergence": 0.8809258937835693,
+        "mismatch": 0.8361858190709046
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9605623818933964,
+        "mismatch": 0.8181818181818181
+      }
+    }
+  },
+  {
+    "layer": 10,
+    "mean_divergence": 0.3460328094661236,
+    "mean_mismatch": 0.7379011208840058,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 7.31348991394043e-05,
+        "mismatch": 0.8019559902200489
+      },
+      "self_attn.k_proj": {
+        "divergence": 2.980232238769531e-07,
+        "mismatch": 0.8068459657701712
+      },
+      "self_attn.v_proj": {
+        "divergence": 2.384185791015625e-07,
+        "mismatch": 0.7995110024449877
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5291769504547119,
+        "mismatch": 0.3398533007334963
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.5824649333953857,
+        "mismatch": 0.7970660146699267
+      },
+      "mlp.up_proj": {
+        "divergence": 0.36082637310028076,
+        "mismatch": 0.7946210268948655
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9496877379715443,
+        "mismatch": 0.8254545454545454
+      }
+    }
+  },
+  {
+    "layer": 11,
+    "mean_divergence": 0.4587206781974861,
+    "mean_mismatch": 0.7324691201219319,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 6.192922592163086e-05,
+        "mismatch": 0.7750611246943765
+      },
+      "self_attn.k_proj": {
+        "divergence": 4.172325134277344e-07,
+        "mismatch": 0.78239608801956
+      },
+      "self_attn.v_proj": {
+        "divergence": 3.5762786865234375e-07,
+        "mismatch": 0.784841075794621
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5463481843471527,
+        "mismatch": 0.3740831295843521
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.8828756809234619,
+        "mismatch": 0.80440097799511
+      },
+      "mlp.up_proj": {
+        "divergence": 0.8192807734012604,
+        "mismatch": 0.8019559902200489
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9624774046242237,
+        "mismatch": 0.8045454545454546
+      }
+    }
+  },
+  {
+    "layer": 12,
+    "mean_divergence": 0.4632901943155697,
+    "mean_mismatch": 0.7457685834947448,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.00022917985916137695,
+        "mismatch": 0.7921760391198044
+      },
+      "self_attn.k_proj": {
+        "divergence": 1.6093254089355469e-06,
+        "mismatch": 0.7970660146699267
+      },
+      "self_attn.v_proj": {
+        "divergence": 1.1324882507324219e-06,
+        "mismatch": 0.7970660146699267
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.42499834299087524,
+        "mismatch": 0.4009779951100244
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.9408129714429379,
+        "mismatch": 0.8264058679706602
+      },
+      "mlp.up_proj": {
+        "divergence": 0.9256153926253319,
+        "mismatch": 0.823960880195599
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9513727314770222,
+        "mismatch": 0.7827272727272727
+      }
+    }
+  },
+  {
+    "layer": 13,
+    "mean_divergence": 0.470789014760937,
+    "mean_mismatch": 0.7349858698758454,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 8.64267349243164e-06,
+        "mismatch": 0.80440097799511
+      },
+      "self_attn.k_proj": {
+        "divergence": 5.960464477539063e-08,
+        "mismatch": 0.8092909535452323
+      },
+      "self_attn.v_proj": {
+        "divergence": 5.960464477539063e-08,
+        "mismatch": 0.80440097799511
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5783839821815491,
+        "mismatch": 0.3422982885085575
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.8393932431936264,
+        "mismatch": 0.784841075794621
+      },
+      "mlp.up_proj": {
+        "divergence": 0.9251369163393974,
+        "mismatch": 0.78239608801956
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9526001997292042,
+        "mismatch": 0.8172727272727273
+      }
+    }
+  },
+  {
+    "layer": 14,
+    "mean_divergence": 0.4861684752894299,
+    "mean_mismatch": 0.7496961229479567,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7970660146699267
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7921760391198044
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7946210268948655
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5665057897567749,
+        "mismatch": 0.4327628361858191
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.9414648413658142,
+        "mismatch": 0.8019559902200489
+      },
+      "mlp.up_proj": {
+        "divergence": 0.9180826246738434,
+        "mismatch": 0.8092909535452323
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9771260712295771,
+        "mismatch": 0.8200000000000001
+      }
+    }
+  },
+  {
+    "layer": 15,
+    "mean_divergence": 0.48125231159584864,
+    "mean_mismatch": 0.7376502714889023,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7921760391198044
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7897310513447433
+      },
+      "self_attn.v_proj": {
+        "divergence": 2.384185791015625e-07,
+        "mismatch": 0.7946210268948655
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5894788801670074,
+        "mismatch": 0.3569682151589242
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.9374632760882378,
+        "mismatch": 0.8068459657701712
+      },
+      "mlp.up_proj": {
+        "divergence": 0.8980517312884331,
+        "mismatch": 0.8068459657701712
+      },
+      "mlp.down_proj": {
+        "divergence": 0.943772055208683,
+        "mismatch": 0.8163636363636364
+      }
+    }
+  },
+  {
+    "layer": 16,
+    "mean_divergence": 0.5038504515375409,
+    "mean_mismatch": 0.7407623916425872,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.80440097799511
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.80440097799511
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7946210268948655
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.6613363921642303,
+        "mismatch": 0.39364303178484106
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.9606783874332905,
+        "mismatch": 0.7921760391198044
+      },
+      "mlp.up_proj": {
+        "divergence": 0.9289764538407326,
+        "mismatch": 0.7897310513447433
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9759619273245335,
+        "mismatch": 0.8063636363636364
+      }
+    }
+  },
+  {
+    "layer": 17,
+    "mean_divergence": 0.2298389936664275,
+    "mean_mismatch": 0.7329304924903948,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 6.0498714447021484e-05,
+        "mismatch": 0.7775061124694377
+      },
+      "self_attn.k_proj": {
+        "divergence": 3.5762786865234375e-07,
+        "mismatch": 0.7726161369193154
+      },
+      "self_attn.v_proj": {
+        "divergence": 2.980232238769531e-07,
+        "mismatch": 0.7603911980440098
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.6318246424198151,
+        "mismatch": 0.4156479217603912
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7946210268948655
+      },
+      "mlp.up_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7897310513447433
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9769871588796377,
+        "mismatch": 0.8200000000000001
+      }
+    }
+  },
+  {
+    "layer": 18,
+    "mean_divergence": 0.4045752542359488,
+    "mean_mismatch": 0.7422312894929031,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.012650847434997559,
+        "mismatch": 0.7995110024449877
+      },
+      "self_attn.k_proj": {
+        "divergence": 6.902217864990234e-05,
+        "mismatch": 0.8019559902200489
+      },
+      "self_attn.v_proj": {
+        "divergence": 5.9485435485839844e-05,
+        "mismatch": 0.7970660146699267
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5458112359046936,
+        "mismatch": 0.3887530562347188
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.5939664244651794,
+        "mismatch": 0.7946210268948655
+      },
+      "mlp.up_proj": {
+        "divergence": 0.7216120362281799,
+        "mismatch": 0.7946210268948655
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9578577280044556,
+        "mismatch": 0.8190909090909091
+      }
+    }
+  },
+  {
+    "layer": 19,
+    "mean_divergence": 0.22335831794355596,
+    "mean_mismatch": 0.754984599752326,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8215158924205379
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8166259168704156
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8166259168704156
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.552679717540741,
+        "mismatch": 0.4058679706601467
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.00978153944015503,
+        "mismatch": 0.80440097799511
+      },
+      "mlp.up_proj": {
+        "divergence": 0.03072565793991089,
+        "mismatch": 0.80440097799511
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9703213106840849,
+        "mismatch": 0.8154545454545454
+      }
+    }
+  },
+  {
+    "layer": 20,
+    "mean_divergence": 0.19832509170685494,
+    "mean_mismatch": 0.7516619566252818,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.007799923419952393,
+        "mismatch": 0.80440097799511
+      },
+      "self_attn.k_proj": {
+        "divergence": 5.7697296142578125e-05,
+        "mismatch": 0.8117359413202934
+      },
+      "self_attn.v_proj": {
+        "divergence": 3.8564205169677734e-05,
+        "mismatch": 0.80440097799511
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.4391788840293884,
+        "mismatch": 0.39608801955990225
+      },
+      "mlp.gate_proj": {
+        "divergence": 1.3113021850585938e-06,
+        "mismatch": 0.8141809290953546
+      },
+      "mlp.up_proj": {
+        "divergence": 1.6093254089355469e-06,
+        "mismatch": 0.8117359413202934
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9411976523697376,
+        "mismatch": 0.8190909090909091
+      }
+    }
+  },
+  {
+    "layer": 21,
+    "mean_divergence": 0.22346843300121172,
+    "mean_mismatch": 0.7403146731019591,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7995110024449877
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7970660146699267
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7970660146699267
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.6122140884399414,
+        "mismatch": 0.4083129584352079
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.78239608801956
+      },
+      "mlp.up_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.78239608801956
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9520649425685406,
+        "mismatch": 0.8154545454545454
+      }
+    }
+  },
+  {
+    "layer": 22,
+    "mean_divergence": 0.24905245059302875,
+    "mean_mismatch": 0.7550160353094338,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 5.960464477539063e-08,
+        "mismatch": 0.8190709046454767
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8190709046454767
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8166259168704156
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.4944099187850952,
+        "mismatch": 0.38141809290953543
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.1330612301826477,
+        "mismatch": 0.8117359413202934
+      },
+      "mlp.up_proj": {
+        "divergence": 0.15393555164337158,
+        "mismatch": 0.8117359413202934
+      },
+      "mlp.down_proj": {
+        "divergence": 0.961960393935442,
+        "mismatch": 0.8254545454545454
+      }
+    }
+  },
+  {
+    "layer": 23,
+    "mean_divergence": 0.22793580751333917,
+    "mean_mismatch": 0.7598164671514305,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8312958435207825
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8312958435207825
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8288508557457213
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.618872344493866,
+        "mismatch": 0.39608801955990225
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8019559902200489
+      },
+      "mlp.up_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8019559902200489
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9766783080995083,
+        "mismatch": 0.8272727272727273
+      }
+    }
+  },
+  {
+    "layer": 24,
+    "mean_divergence": 0.21976366213389806,
+    "mean_mismatch": 0.7493557298447274,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 4.172325134277344e-07,
+        "mismatch": 0.8215158924205379
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8141809290953546
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8190709046454767
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5943397581577301,
+        "mismatch": 0.4034229828850856
+      },
+      "mlp.gate_proj": {
+        "divergence": 4.6193599700927734e-05,
+        "mismatch": 0.784841075794621
+      },
+      "mlp.up_proj": {
+        "divergence": 3.737211227416992e-05,
+        "mismatch": 0.7897310513447433
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9439218938350677,
+        "mismatch": 0.8127272727272727
+      }
+    }
+  },
+  {
+    "layer": 25,
+    "mean_divergence": 0.20783208363822528,
+    "mean_mismatch": 0.7586298542533262,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.036802470684051514,
+        "mismatch": 0.8068459657701712
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0002155303955078125,
+        "mismatch": 0.8117359413202934
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.00021392107009887695,
+        "mismatch": 0.8092909535452323
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.4756353497505188,
+        "mismatch": 0.4352078239608802
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8068459657701712
+      },
+      "mlp.up_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8068459657701712
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9419573135674,
+        "mismatch": 0.8336363636363636
+      }
+    }
+  },
+  {
+    "layer": 26,
+    "mean_divergence": 0.224140215665102,
+    "mean_mismatch": 0.7353440447083478,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7946210268948655
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7897310513447433
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7921760391198044
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5924490094184875,
+        "mismatch": 0.3887530562347188
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.78239608801956
+      },
+      "mlp.up_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7897310513447433
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9765325002372265,
+        "mismatch": 0.81
+      }
+    }
+  },
+  {
+    "layer": 27,
+    "mean_divergence": 0.23552106586950167,
+    "mean_mismatch": 0.7290705871145968,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 5.960464477539063e-08,
+        "mismatch": 0.78239608801956
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7750611246943765
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7775061124694377
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5092732906341553,
+        "mismatch": 0.39364303178484106
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.13059216737747192,
+        "mismatch": 0.7701711491442542
+      },
+      "mlp.up_proj": {
+        "divergence": 0.058728814125061035,
+        "mismatch": 0.7701711491442542
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9500531293451786,
+        "mismatch": 0.8345454545454545
+      }
+    }
+  },
+  {
+    "layer": 28,
+    "mean_divergence": 0.2267774765246681,
+    "mean_mismatch": 0.7470631568920078,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 2.390146255493164e-05,
+        "mismatch": 0.8117359413202934
+      },
+      "self_attn.k_proj": {
+        "divergence": 3.5762786865234375e-07,
+        "mismatch": 0.8092909535452323
+      },
+      "self_attn.v_proj": {
+        "divergence": 2.980232238769531e-07,
+        "mismatch": 0.8092909535452323
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5989614129066467,
+        "mismatch": 0.41320293398533003
+      },
+      "mlp.gate_proj": {
+        "divergence": 4.76837158203125e-07,
+        "mismatch": 0.7775061124694377
+      },
+      "mlp.up_proj": {
+        "divergence": 2.384185791015625e-07,
+        "mismatch": 0.7775061124694377
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9884556503966451,
+        "mismatch": 0.8309090909090909
+      }
+    }
+  },
+  {
+    "layer": 29,
+    "mean_divergence": 0.20143063366413116,
+    "mean_mismatch": 0.7310227669640873,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7775061124694377
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7775061124694377
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7750611246943765
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.5631042420864105,
+        "mismatch": 0.43031784841075793
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7701711491442542
+      },
+      "mlp.up_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.7775061124694377
+      },
+      "mlp.down_proj": {
+        "divergence": 0.8469101935625076,
+        "mismatch": 0.8090909090909091
+      }
+    }
+  },
+  {
+    "layer": 30,
+    "mean_divergence": 0.22741967013904027,
+    "mean_mismatch": 0.7603359476709111,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8068459657701712
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.80440097799511
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.0,
+        "mismatch": 0.8092909535452323
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.6707829236984253,
+        "mismatch": 0.44498777506112475
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.0166129469871521,
+        "mismatch": 0.8166259168704156
+      },
+      "mlp.up_proj": {
+        "divergence": 0.011695444583892822,
+        "mismatch": 0.8092909535452323
+      },
+      "mlp.down_proj": {
+        "divergence": 0.8928463757038116,
+        "mismatch": 0.8309090909090909
+      }
+    }
+  },
+  {
+    "layer": 31,
+    "mean_divergence": 0.8026043299053397,
+    "mean_mismatch": 0.731479376369352,
+    "per_sublayer": {
+      "self_attn.q_proj": {
+        "divergence": 0.7993127256631851,
+        "mismatch": 0.784841075794621
+      },
+      "self_attn.k_proj": {
+        "divergence": 0.8566634505987167,
+        "mismatch": 0.78239608801956
+      },
+      "self_attn.v_proj": {
+        "divergence": 0.816100001335144,
+        "mismatch": 0.7872860635696821
+      },
+      "self_attn.o_proj": {
+        "divergence": 0.48215252161026,
+        "mismatch": 0.39364303178484106
+      },
+      "mlp.gate_proj": {
+        "divergence": 0.8456521183252335,
+        "mismatch": 0.7872860635696821
+      },
+      "mlp.up_proj": {
+        "divergence": 0.8466516733169556,
+        "mismatch": 0.7921760391198044
+      },
+      "mlp.down_proj": {
+        "divergence": 0.9716978184878826,
+        "mismatch": 0.7927272727272727
+      }
+    }
+  }
+]
