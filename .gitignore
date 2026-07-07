@@ -1,14 +1,9 @@
-# Model weights (too large for git — host on HuggingFace Hub)
-output/openvla_1bit_llm/
-output/openvla_lora/
-output/openvla_mixed_4bit1bit/
-output/*.safetensors
-output/**/model.safetensors
+# Local run artifacts (model weights, logs) — too large / not useful for git.
+# Curated results live in results/ and figures/ instead.
+output/
 
 # Logs and caches
 logs/
-output/*.log
-output/action_eval.log
 __pycache__/
 *.pyc
 .ipynb_checkpoints/

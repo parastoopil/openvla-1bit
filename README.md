@@ -188,6 +188,8 @@ High divergence means the layer uses different weight columns for action tokens 
 4. **down_proj is action-specific in almost every layer** (divergence 0.7–0.99 from layer 3 onward) — the FFN output pathway consistently treats action tokens differently from image tokens.
 5. **~75% weight mismatch** — in action-critical layers, 3 out of 4 top-salient weights identified by standard GPTQ (H_all) are different from those identified by H_action.
 
+![Per-layer H_all vs H_action salience divergence](figures/action_layer_divergence.png)
+
 **Practical implication:** Standard GPTQ calibration (H_all) selects salient weights predominantly based on image patch processing (256/276 = 93% of calibration tokens). The 7% of tokens where the model actually predicts actions are underrepresented in the salience map.
 
 **Attempted fix (Exp E series):** Use H_action for salience detection in the identified critical layers. This was explored across multiple configurations (128/512/1024 samples, with/without last layer). All configurations performed worse than Exp D-128. The reason: H_action measures curvature of *hidden state activations* at action positions, not curvature of the *output logits* — it cannot see past layer 32 to the LM head. Protecting weights that strongly shape mid-network action representations does not directly translate to correct token prediction.
@@ -253,13 +255,26 @@ openvla-1bit/
 ├── run_libero_eval.py            # LIBERO eval entry point (FP16 + quantized models)
 ├── finetune_lora.py              # Optional LoRA fine-tuning before quantization
 ├── requirements.txt
+├── results/                      # Curated result JSONs referenced by this README
+│   ├── quant_results.json            # Exp A: PPL + per-layer quant timing
+│   ├── action_accuracy.json          # Exp A: action accuracy
+│   ├── action_accuracy_exp_c.json    # Exp C: action accuracy
+│   ├── action_accuracy_exp_d.json    # Exp D: action accuracy (BridgeV2, 128 samples)
+│   ├── action_accuracy_exp_d1k.json  # Exp D-1k: action accuracy (BridgeV2, 1024 samples)
+│   └── action_layer_analysis/        # Action-token Hessian divergence analysis output
+│       ├── layer_divergence.json
+│       ├── action_critical_layers.txt
+│       └── action_critical_layers_v2.txt
 └── figures/
     ├── plot_results.py           # Generates comparison figures from result JSONs
     ├── action_error_per_dim.png  # Per-dimension L1 error across all experiments
     ├── action_scatter.png        # Action prediction scatter vs FP16
     ├── perplexity_comparison.png # Perplexity on C4 across quantization configs
+    ├── action_layer_divergence.png # Per-layer H_all vs H_action salience divergence
     └── quant_time_per_layer.png  # Quantization time per decoder layer
 ```
+
+> `output/` is a gitignored local scratch directory — running the scripts below writes checkpoints, logs, and raw JSON there. Curated, human-readable results are checked into `results/` and `figures/`.
 
 ---
 
